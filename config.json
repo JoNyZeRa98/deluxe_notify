@@ -1,0 +1,27 @@
+{
+  "notificationsPos": "top-right",
+  "language": "en",
+
+  "notificationsPosLayout": {
+    "top-left": { "top": "1.5", "left": "1.5" },
+    "top-center": { "top": "1.5" },
+    "top-right": { "top": "1.5", "right": "1.5" },
+    "bottom-left": { "bottom": "1.5", "left": "1.5" },
+    "bottom-center": { "bottom": "1.5" },
+    "bottom-right": { "bottom": "1.5", "right": "1.5" }
+  },
+
+  "notificationsTheme": {
+    "test": { "icon": "\uEB3A", "defaultTitle": "Test", "defaultMessage": "This is a test message", "color": { "backgroundColor": "#2C2C2C", "headerColor": "#999999", "messageColor": "#FFFFFF" } },
+    "success": { "icon": "\uEA5E", "defaultTitle": "Success", "defaultMessage": "This is a success message", "color": { "backgroundColor": "#006400", "headerColor": "#00FF00", "messageColor": "#FFFFFF" } },
+    "error": { "icon": "\uEB55", "defaultTitle": "Error", "defaultMessage": "This is a error message", "color": { "backgroundColor": "#8B0000", "headerColor": "#FF6666", "messageColor": "#FFFFFF" } },
+    "police": { "icon": "\uEB24", "defaultTitle": "Police", "defaultMessage": "This is a police message", "color": { "backgroundColor": "#000080", "headerColor": "#4682B4", "messageColor": "#FFFFFF" } },
+    "ems": { "icon": "\uEBF5", "defaultTitle": "EMS", "defaultMessage": "This is a ems message", "color": { "backgroundColor": "#8B0000", "headerColor": "#FF6666", "messageColor": "#FFFFFF" } }
+  },
+
+  "translation": {
+    "en": {
+      "[SELECT_NOTIFICATIONS_POS_TEXT]": "Select a position for notifications"
+    }
+  }
+}
